@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin : 0;
+  background: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-style{
+  padding: 4px 7px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: 1px gray solid;
+}
+
+.span-style{
+  /* border: 1px black solid; */
+  padding: 5px ;
+  border-radius: 4px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.span-style:hover{
+  background-color: rgb(29, 78, 216)
+}
